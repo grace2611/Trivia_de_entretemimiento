@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+*{
+    font-family: 'Mochiy Pop One';
+}
+
+body {
+    position: relative;
+    margin: 0px;
+}  
+
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 105%;
+    min-height: 100%;
+    transform: translateX(calc((100% - 100vw) / 2));
+    z-index: -2;
+  }
+
+#trivia-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #e6fffd;
+    border: 10px solid #b9eeea; 
+    border-radius: 70px;
+    margin: 26px 230px 26px;
+}
+
+#nombreUsuario {
+    font-weight: bold;
+}
+
+.opciones-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.opcion-container {
+    text-align: center;
+    margin: 60px 100px 30px 100px;
+    color: #333;
+}
+
+.boton {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0px 0px 50px rgba(80, 232, 255, 0.589);
+    cursor: pointer;
+    transition: transform 0.4s ease; 
+}
+
+.boton:hover {
+    transform: scale(1.6); 
+}
+
+.imagen-logo {
+    width: 150px;
+    height: auto;
+}
+

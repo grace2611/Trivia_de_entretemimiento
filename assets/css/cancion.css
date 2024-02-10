@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+*{
+    font-family: 'Mochiy Pop One';
+}
+
+
+* {
+    transition: all 0.85s;
+  }
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.titulo_marca {
+    color: #333;
+}
+
+.titulo {
+    color: #333;
+}
+
+.pregunta {
+    color: #666;
+}
+
+.input {
+    width: 200px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #2980b9;
+}
+
+#trivia-container {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #93e4c1;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-family: 'Dangrek', sans-serif;
+} 
+#encabezado {
+    min-height: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(225, 255, 213);
+    border: 5px solid rgb(187, 238, 167);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+.opcion {
+    text-align: center;
+    width: 1020px;
+    height: 40px;
+    background: rgb(254, 255, 212);
+    border: 2px solid rgb(254, 255, 167);
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.opcion:hover{
+       background:#f8f398;
+}
+
+#barra-progreso {
+    width: 90%;
+    /* centrado del elemento */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#resultado-excelente {
+    color:rgb(35, 161, 18);
+    font-weight: 600;
+}
+
+#resultado-bueno {
+    color:rgb(18, 161, 149);
+    font-weight: 600;
+}
+
+#resultado-malo {
+    color:rgb(161, 39, 18);
+    font-weight: 600;
+}
+
+.resultado_obtenido {
+    padding-top: 50px;
+}
