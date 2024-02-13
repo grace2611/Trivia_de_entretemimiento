@@ -38,7 +38,7 @@ Como explorador intrépido, quiero un recibimiento visual impresionante.
 
 **¡Así lo Logramos!**
 - Una pantalla de bienvenida con un video impactante te transporta al mundo del entretenimiento.
-- Un botón llamativo te lanza directamente a la acción.
+- [![Botón de Acción](https://img.shields.io/badge/Acción-¡Comienza%20Ahora!-brightgreen)](url_boton_accion)
 
 ### ¡Exploración de Géneros! 🎭
 
@@ -66,9 +66,9 @@ Como curioso del entretenimiento, quiero un festín visual de estadísticas.
 
 ## Lenguajes Utilizados 📝
 
-- HTML
-- CSS
-- JavaScript
+![HTML](url_html_icon) HTML
+![CSS](url_css_icon) CSS
+![JavaScript](url_js_icon) JavaScript
 
 ¡Prepárate para la Trivia más emocionante que jamás hayas experimentado! 🚀 ¡Dale rienda suelta a tu conocimiento y disfruta de la Trivia de Entretenimiento! 🌟
 
