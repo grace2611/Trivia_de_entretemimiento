@@ -1,9 +1,9 @@
 var imagenes = [
-    "img/fortnite.png",
-    "img/plantasvszombies.png",
-    "img/minecraft.png",
-    "img/gta.png",
-    "img/brawlstars.png"
+    "assets/img/fortnite.png",
+    "assets/img/plantasvszombies.png",
+    "assets/img/minecraft.png",
+    "assets/img/gta.png",
+    "assets/img/brawlstars.png"
 ];
 
 var opciones = [

@@ -1,9 +1,9 @@
 var imagenes = [
-    "img/dumbo.png",
-    "img/aladin.png",
-    "img/bellaybestia.png",
-    "img/princesayelsapo.png",
-    "img/rapunzel.png"
+    "assets/img/dumbo.png",
+    "assets/img/aladin.png",
+    "assets/img/bellaybestia.png",
+    "assets/img/princesayelsapo.png",
+    "assets/img/rapunzel.png"
 ];
 
 var opciones = [
